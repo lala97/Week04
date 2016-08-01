@@ -6180,8 +6180,15 @@ body {
     border-bottom: 1px solid lightgray;
     border-top: 1px solid lightgray; }
   #service img {
-    padding-top: 5.4em;
-    padding-left: 24px; }
+    padding-top: 5.5em;
+    padding-left: 14%; }
+  #service h4:first-child {
+    padding-left: 5%;
+    margin-top: 74px; }
+  #service h4:last-child {
+    padding-left: 3%; }
+  #service .col-md-3 h4:last-child {
+    padding-left: 1%; }
   #service ul {
     list-style-type: none;
     margin: 0;
@@ -6190,27 +6197,24 @@ body {
   #service a {
     display: block;
     color: #a9b4b9;
-    padding: 9px 14px;
+    padding: 12px 50px 4px 15px;
     text-decoration: none;
     text-transform: uppercase; }
-    #service a i:first-child {
-      padding-left: 2px; }
-    #service a i:nth-child(2) {
-      padding-left: 15px; }
-    #service a i:last-child {
-      padding-left: 18px; }
-  #service h4 {
-    padding-top: 62px;
-    margin-left: 5.3%;
-    letter-spacing: 1px; }
+  #service i:nth-child(2) {
+    padding-left: 13%; }
+  #service i:last-child {
+    padding-left: 15%; }
   #service .menu a {
-    padding-left: 26px;
-    padding-top: 13px;
-    padding-bottom: 3px; }
+    padding-left: 23px;
+    padding-top: 14px;
+    padding-bottom: 3px;
+    font-size: 13px;
+    padding-right: 1px; }
   #service input {
-    height: 42px;
-    width: 199px; }
-  #service .go button {
+    width: 15.6em;
+    height: 3em;
+    margin-left: 6%; }
+  #service form button {
     width: 42px;
     height: 42px;
     border-radius: 0px;

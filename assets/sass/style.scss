@@ -490,9 +490,22 @@ padding-top:2.5px;
     border-top:1px solid lightgray;
 }
 img{
-	padding-top: 5.4em;
-    padding-left: 24px;
+	padding-top: 5.5em;
+    padding-left: 14%;
 }
+
+ h4:first-child{
+ 	padding-left: 5%;
+    margin-top: 74px;
+ }
+  h4:last-child{
+ 	padding-left: 3%;
+ }
+.col-md-3 h4:last-child{
+ 	    padding-left: 1%;
+ }
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -502,38 +515,37 @@ ul {
 	a {
     display: block;
     color: #a9b4b9;
-    padding: 9px 14px;
+    padding:12px 50px 4px 15px;
     text-decoration: none;
 	 text-transform: uppercase;
-        i:first-child{
-        	padding-left:2px;
-        }
+	}
+        
 		i:nth-child(2){
-			padding-left: 15px;
+			padding-left: 13%;
 		}
 		i:last-child{
-			padding-left: 18px;
+			padding-left: 15%;
 		}
-	}
+	
 	
 
-    h4{
-    	padding-top: 62px;
-	    margin-left: 5.3%;
-	    letter-spacing: 1px;
-    }
+ 
      
      .menu a{
-     	padding-left: 26px;
-       padding-top: 13px;
-       padding-bottom: 3px;
+     	padding-left: 23px;
+    padding-top: 14px;
+    padding-bottom: 3px;
+    font-size: 13px;
+    padding-right: 1px;
      }
+   
+    input{
+     width: 15.6em;
+    height: 3em;
+    margin-left: 6%;
+    }
 
-     input{
-		height: 42px;
-		width: 199px;
-	}
-	.go{
+	form {
 		button{
 			width: 42px;
 			height: 42px;
@@ -542,7 +554,7 @@ ul {
 			border: 1px solid #29c2e1;
 			color: #ffffff;
 		}
-}
+     }
 }
 
 
